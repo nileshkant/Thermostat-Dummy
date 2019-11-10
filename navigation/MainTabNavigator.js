@@ -76,7 +76,10 @@ HomeStack.path = '';
 
 // SettingsStack.path = '';
 
-const tabNavigator = createStackNavigator({ Home: HomeScreen });
+const tabNavigator = createStackNavigator(
+  { Home: HomeScreen },
+  { headerMode: 'none' }
+);
 // ({
 //   HomeStack,
 //   LinksStack,

@@ -51,6 +51,12 @@ export default class HomePage extends Component {
 
     return (
       <View style={styles.container}>
+        <View>
+          <Text
+            style={styles.textContainer}>
+            Thermostat
+          </Text>
+        </View>
         <View style={styles.containerTemp}>
           <View>
             <TimerText style={styles.conterContainer} temprature={temprature} />
