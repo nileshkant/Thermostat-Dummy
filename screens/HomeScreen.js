@@ -16,7 +16,7 @@ const TEMP_ICON = (
 );
 
 function roundAngleToFives(angle) {
-  const inDegAngle = (2 * Math.PI) / 10;
+  const inDegAngle = (2 * Math.PI) / 144; // for smoother scroll
 
   return Math.round(angle / inDegAngle) * inDegAngle;
 }
